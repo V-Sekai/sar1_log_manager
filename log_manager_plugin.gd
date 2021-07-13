@@ -1,10 +1,10 @@
-tool
+@tool
 extends EditorPlugin
 
 func _init():
 	print("Initialising LogManager plugin")
 
-func get_name() -> String:
+func _get_plugin_name() -> String:
 	return "LogManager"
 
 
