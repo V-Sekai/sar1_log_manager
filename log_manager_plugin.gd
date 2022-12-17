@@ -1,8 +1,10 @@
 @tool
 extends EditorPlugin
 
+
 func _init():
 	print("Initialising LogManager plugin")
+
 
 func _get_plugin_name() -> String:
 	return "LogManager"
